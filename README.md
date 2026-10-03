@@ -1,6 +1,9 @@
 # Itzfizz – Scroll-Driven Hero (React + GSAP + Tailwind)
 
 A hero section whose car, wheels, headline and statistic cards are driven by scroll progress.
+## Title
+**Live demo:** https://yuvishekhar5-hue.github.io/itzfizz-scroll/
+**Repository:** https://github.com/yuvishekhar5-hue/itzfizz-scroll
 
 ## Stack
 React 18 (Vite), GSAP + ScrollTrigger (`@gsap/react`), Tailwind CSS, plain JS.
