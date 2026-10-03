@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: #0b0d10; --fg: #f2f4f7; --mut: #8a93a0; --acc: #c6ff3d; }
+
+html, body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.road {
+  background: repeating-linear-gradient(90deg, var(--mut) 0 60px, transparent 60px 140px);
+  opacity: 0.5;
+}
+
+.ch, .stat { will-change: transform, opacity; }
+
+.card { width: min(40vw, 190px); padding: 12px 16px; border-radius: 6px; text-align: left; }
+.card .n { font-size: clamp(1.5rem, 3.4vw, 2.2rem); font-weight: 700; line-height: 1.1; }
+.card p { margin: 4px 0 0; font-size: 0.72rem; line-height: 1.25; }
